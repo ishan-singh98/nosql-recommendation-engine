@@ -14,3 +14,8 @@ data/raw/*
 .DS_Store
 .vscode/
 *.egg-info/
+
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
