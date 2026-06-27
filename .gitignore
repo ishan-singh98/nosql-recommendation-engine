@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables / secrets
+.env
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+
+# OS/editor
+.DS_Store
+.vscode/
+*.egg-info/
